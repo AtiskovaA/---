@@ -32,7 +32,7 @@ public class Main {
             sumProducts += productCount * prices[productNumber];
 
             basket.addToCart(productNumber, productCount);
-            basket.saveTxt(new File("basket.txt"));
+            basket.saveTxt(new File("basket.bin"));
         }
 
         //Basket basket1 = Basket.loadFromTxtFile(new File("basket.txt"));
